@@ -1,0 +1,9 @@
+{
+  "name": "Cioran",
+  "version": "0.0.1",
+  "description": "Experimental Philosophy Web Book ",
+  "main": "index.js",
+  "repository": "https://github.com/drnoir",
+  "author": "Chris Godber <chrispgodber@gmail.com>",
+  "license": "MIT Licence"
+}
