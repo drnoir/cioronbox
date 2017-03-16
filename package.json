@@ -1,0 +1,12 @@
+{
+  "name": "Cioran Box",
+  "version": "0.1",
+  "description": "Cioran Box React Web App",
+  "main": "index.js",
+  "repository": "react",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
