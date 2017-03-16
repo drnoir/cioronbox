@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/drnoir",
   "author": "Chris Godber <chrispgodber@gmail.com>",
-  "license": "MIT Licence"
+  "license": "MIT Licence",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
 }
