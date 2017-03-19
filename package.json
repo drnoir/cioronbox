@@ -1,13 +1,26 @@
 {
-  "name": "Cioran",
+  "name": "cioranbox",
   "version": "0.0.1",
   "description": "Experimental Philosophy Web Book ",
   "main": "index.js",
-  "repository": "https://github.com/drnoir",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drnoir"
+  },
   "author": "Chris Godber <chrispgodber@gmail.com>",
-  "license": "MIT Licence",
+  "license": "MIT",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
-  }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-react": "^6.23.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test"
+  ]
 }
