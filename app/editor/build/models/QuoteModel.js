@@ -12,4 +12,5 @@ export default class QuoteModel{
 	}
 }
 //set values for arrays for populating interactive elements
-export const QuotesArray = ['Bananas','Apples','Cereal','Bread','Tea','Milk','Curry Sauce','Cat Food'];
+export const QuotesArray = ['Despair','Melancholy','Sadness','Loneliness','Suffering'];
+export const ChosenQuote = [];
