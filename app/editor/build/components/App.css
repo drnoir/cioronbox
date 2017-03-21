@@ -1,0 +1,39 @@
+body{
+	background-color:black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+	width:100%;
+	background-color:dimgrey;
+}
+
+.title{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:white;	
+}
+
+.container{
+	background-color:white;
+	width:70%;
+	min-height:100%;
+	margin:15%;	
+}
+
+.itemdisplay{
+background-color:white;
+float:left;
+width:45%;	
+}
+
+.itemeditor{
+background-color:white;
+float:right;
+width:40%;
+}
+
+.item{
+	list-style:none;
+	font-size:20px;
+}
+

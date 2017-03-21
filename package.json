@@ -1,26 +1,56 @@
 {
-  "name": "cioranbox",
-  "version": "0.0.1",
-  "description": "Experimental Philosophy Web Book ",
-  "main": "index.js",
+  "name": "react-hot-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "scripts": {
+    "app-dev": "node app --enableHotLoading",
+    "app-live": "node app",
+    "build": "webpack -d"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/drnoir"
-  },
-  "author": "Chris Godber <chrispgodber@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.0",
-    "babel-preset-react": "^6.23.0"
-  },
-  "scripts": {
-    "test": "test"
+    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
   },
   "keywords": [
-    "test"
-  ]
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "express": "^4.13.4",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "dependencies": {
+    "css-loader": "^0.26.1",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "pug": "^2.0.0-beta11",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "style-loader": "^0.13.1",
+    "underscore": "^1.8.3"
+  }
 }

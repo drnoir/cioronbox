@@ -1,0 +1,13 @@
+mixin addScript( src )
+	script(src=src)
+
+mixin addStyle( src )
+	link(rel="stylesheet" href=src)
+
+html
+	head
+
+	body
+		#root
+		+addScript('/bundles/vendor.bundle.js')
+		+addScript('/bundles/editor/index.bundle.js')
