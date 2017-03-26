@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 
 export default class QuoteModel{
-	constructor( Quote, priority ){
-		priority = priority || {};
+	constructor( QuoteModel){
 
 		this.Quote =Quote;
 		
-		//set default values 
-		this.priority= null;
-		this.Quoteitems = null;
+		//set default valuesthis.priority= null;
+		this.QuoteModel= null;
 	}
 }
 //set values for arrays for populating interactive elements

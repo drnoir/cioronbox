@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './App.css';
-import Quote from './Quote';
+//import Quote from './Quote';
 import QuoteModel, {QuotesArray} from '../models/QuoteModel';
 import _ from 'lodash';
 import $ from 'jquery';
@@ -46,12 +46,13 @@ export default class App extends Component {
 		});
 	}
 
-	onQuoteRemove( event){
+	onQuoteClick( event){
 		console.log('event fired for quote remove');
 		var itemData = $(event.target).parent().attr('data-item-id');
 		var ChosenQuote = _.clone(this.state.ChosenQuote);
 		var Quotes = _.clone(this.state.Quote);
-		var removeQuotes = _.without(Quotes, itemData );
+		
+		
 		ChosenQuote.push(itemData);
 
 		this.setState({

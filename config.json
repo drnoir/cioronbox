@@ -1,4 +1,4 @@
 {
 	"port" : 4000,
-	"enableHotLoading" : false
+	"enableHotLoading" : true
 }
